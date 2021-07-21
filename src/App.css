@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  padding: 16px;
+  border-bottom: solid 1px #23a1e5;
+  text-align: right;
+}
+
+.add_task_btn {
+  display: inline-block;
+  padding: 5px 16px;
+  margin-right: 5px;
+  border-radius: 3px;
+  background: #2ebe2c;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth_btn {
+  display: inline-block;
+  padding: 5px 16px;
+  border-radius: 3px;
+  background: #23a1e5;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth_btn_disabled {
+  background: #80cffd;
+  pointer-events: none;
+}
+
+.auth_btn:hover {
+  background: #1b74a5;
+}
+
+.table {
+  width: 100%;
+  padding: 16px;
+  font-size: 14px;
+}
+
+.table th {
+  text-align: left;
+}
+
+.total_count {
+  padding: 16px;
+}
+
+.info {
+  position: relative;
+  padding: 16px;
+  background: #bcffbb;
+}

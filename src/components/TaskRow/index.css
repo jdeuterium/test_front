@@ -1,0 +1,14 @@
+.edit_btn {
+    text-align: center;
+    padding: 2px;
+    border-radius: 3px;
+    border: solid 1px #bbb;
+    background: #fff;
+    cursor: pointer;
+}
+
+.edit_btn_disabled {
+    background: #eee;
+    color: #ccc;
+    pointer-events: none;
+}
